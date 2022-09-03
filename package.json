@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-crash-course",
+  "version": "1.0.0",
+  "description": "Nodejs crash course",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alizwarraich/nodejs-crash-course.git"
+  },
+  "author": "Ali Warraich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alizwarraich/nodejs-crash-course/issues"
+  },
+  "homepage": "https://github.com/alizwarraich/nodejs-crash-course#readme",
+  "dependencies": {
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
